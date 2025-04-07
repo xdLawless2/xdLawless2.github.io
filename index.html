@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden Dangers of Unhealthy Eating</title>
+    <style>
+        :root {
+            --primary-color: #4a7c59;
+            --secondary-color: #f4f9f4;
+            --accent-color: #c83e4d;
+            --text-color: #333;
+            --light-text: #666;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #3d6a4b;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.3rem;
+            margin: 1.5rem 0 1rem;
+            color: var(--primary-color);
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        ul, ol {
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-box {
+            background-color: #f0f8f2;
+            border-left: 4px solid var(--accent-color);
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .stat-box p {
+            margin-bottom: 0;
+            font-weight: 500;
+        }
+        
+        .stat-source {
+            font-size: 0.8rem;
+            color: var(--light-text);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        
+        .chart-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .tip-card {
+            background-color: #e6f2ea;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+        
+        .tip-card h4 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .conclusion {
+            border-top: 2px solid var(--primary-color);
+            margin-top: 2rem;
+            padding-top: 1rem;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .resource-link {
+            color: var(--primary-color);
+            font-weight: 500;
+            text-decoration: none;
+            border-bottom: 1px dotted var(--primary-color);
+        }
+        
+        .resource-link:hover {
+            border-bottom: 1px solid var(--primary-color);
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: center;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Hidden Dangers of Unhealthy Eating</h1>
+        <p>Understanding the risks and making informed choices</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#health-impacts">Health Impacts</a></li>
+            <li><a href="#global-stats">Global Statistics</a></li>
+            <li><a href="#processed-foods">Processed Foods</a></li>
+            <li><a href="#sugar">Sugar Impact</a></li>
+            <li><a href="#solutions">Healthy Solutions</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="overview">
+            <h2>The Scale of the Problem</h2>
+            <p>Poor dietary habits have become one of the leading risk factors for disease and mortality worldwide. What we eat affects nearly every aspect of our health, from our energy levels and mental clarity to our risk for chronic diseases and overall lifespan.</p>
+            
+            <div class="stat-box">
+                <p>According to the World Health Organization, unhealthy diets and lack of physical activity are leading global risks to health.</p>
+                <p class="stat-source">Source: World Health Organization, 2023</p>
+            </div>
+            
+            <p>This website provides evidence-based information about the risks associated with poor dietary habits and offers practical guidance for making healthier food choices. By understanding these risks, you can make more informed decisions about your diet and take control of your health.</p>
+        </section>
+        
+        <section id="health-impacts">
+            <h2>Major Health Impacts of Poor Nutrition</h2>
+            
+            <h3>Cardiovascular Disease</h3>
+            <p>Diets high in saturated fats, trans fats, and sodium significantly increase the risk of heart disease and stroke.</p>
+            
+            <div class="stat-box">
+                <p>Cardiovascular diseases are the leading cause of death globally, taking an estimated 17.9 million lives each year. Poor diet is responsible for about 11 million of these deaths annually.</p>
+                <p class="stat-source">Source: Global Burden of Disease Study, 2019</p>
+            </div>
+            
+            <h3>Type 2 Diabetes</h3>
+            <p>Excessive consumption of refined carbohydrates and sugars can lead to insulin resistance and eventually type 2 diabetes.</p>
+            
+            <div class="stat-box">
+                <p>According to the International Diabetes Federation, 537 million adults (20-79 years) were living with diabetes in 2021. This number is projected to rise to 643 million by 2030 and 783 million by 2045.</p>
+                <p class="stat-source">Source: International Diabetes Federation, 2021</p>
+            </div>
+            
+            <h3>Obesity</h3>
+            <p>Diets high in calories, particularly from processed foods, combined with sedentary lifestyles, have contributed to the global obesity epidemic.</p>
+            
+            <div class="stat-box">
+                <p>In 2022, more than 39% of adults aged 18 and over were overweight, and 13% were obese. Since 1975, obesity has nearly tripled worldwide.</p>
+                <p class="stat-source">Source: World Health Organization, 2022</p>
+            </div>
+            
+            <h3>Cancer</h3>
+            <p>Poor dietary patterns have been linked to increased risk of several types of cancer, including colorectal, breast, and prostate cancer.</p>
+            
+            <div class="stat-box">
+                <p>Research suggests that approximately 30-50% of all cancer cases are preventable through healthy lifestyle choices, including proper nutrition.</p>
+                <p class="stat-source">Source: World Cancer Research Fund, 2023</p>
+            </div>
+            
+            <h3>Mental Health</h3>
+            <p>Emerging research suggests strong links between diet quality and mental health, including depression and anxiety.</p>
+            
+            <div class="stat-box">
+                <p>Studies have found that people who follow a Mediterranean-style diet have a 33% lower risk of depression compared to those who follow diets high in processed foods.</p>
+                <p class="stat-source">Source: Molecular Psychiatry Journal, 2022</p>
+            </div>
+        </section>
+        
+        <section id="global-stats">
+            <h2>Global Statistics on Poor Dietary Habits</h2>
+            
+            <div class="chart-container">
+                <img src="/api/placeholder/600/400" alt="Chart showing global dietary risk factors" />
+                <p><i>Representation of global dietary risk factors contributing to mortality</i></p>
+            </div>
+            
+            <ul>
+                <li><strong>Insufficient fruit consumption:</strong> 3.4 million deaths annually can be attributed to inadequate fruit intake.</li>
+                <li><strong>Insufficient vegetable consumption:</strong> 1.8 million deaths annually are linked to inadequate vegetable intake.</li>
+                <li><strong>Excessive sodium intake:</strong> 4.1 million deaths annually are associated with high sodium consumption.</li>
+                <li><strong>Processed meat consumption:</strong> Associated with 34,000 cancer deaths annually worldwide.</li>
+                <li><strong>Sugar-sweetened beverages:</strong> Linked to 184,000 deaths annually from diabetes, cardiovascular disease, and cancer.</li>
+            </ul>
+            
+            <div class="stat-box">
+                <p>The economic impact of poor diets is enormous. Healthcare costs related to poor diet-related conditions exceed $50 billion annually in the United States alone.</p>
+                <p class="stat-source">Source: Journal of Health Affairs, 2023</p>
+            </div>
+        </section>
+        
+        <section id="processed-foods">
+            <h2>The Problem with Ultra-Processed Foods</h2>
+            
+            <p>Ultra-processed foods are industrial formulations made with ingredients not typically used in home cooking and designed to be hyper-palatable, convenient, and profitable.</p>
+            
+            <h3>Common Examples Include:</h3>
+            <ul>
+                <li>Packaged snacks and desserts</li>
+                <li>Sugary breakfast cereals</li>
+                <li>Reconstituted meat products (nuggets, hot dogs)</li>
+                <li>Instant noodles and soups</li>
+                <li>Ready-to-heat meals</li>
+                <li>Carbonated and sugar-sweetened beverages</li>
+            </ul>
+            
+            <div class="stat-box">
+                <p>Ultra-processed foods now account for 57.9% of total energy intake in the United States, 51.2% in the UK, and between 25-50% in many middle-income countries.</p>
+                <p class="stat-source">Source: BMJ Global Health, 2024</p>
+            </div>
+            
+            <h3>Health Impacts of Ultra-Processed Foods:</h3>
+            
+            <div class="stat-box">
+                <p>A 2023 meta-analysis found that for every 10% increase in ultra-processed food consumption, there was a 12% increase in risk for type 2 diabetes, a 15% increase in heart disease, and a 14% increase in all-cause mortality.</p>
+                <p class="stat-source">Source: The BMJ, 2023</p>
+            </div>
+            
+            <p>Ultra-processed foods are typically:</p>
+            <ul>
+                <li>High in added sugars, unhealthy fats, and sodium</li>
+                <li>Low in fiber, vitamins, minerals, and phytonutrients</li>
+                <li>Designed to encourage overconsumption</li>
+                <li>Often containing artificial additives with uncertain long-term health effects</li>
+            </ul>
+        </section>
+        
+        <section id="sugar">
+            <h2>The Impact of Added Sugar</h2>
+            
+            <p>Added sugars are sugars and syrups that are added to foods during processing or preparation, not including naturally occurring sugars in fruits and milk.</p>
+            
+            <div class="stat-box">
+                <p>The average American consumes approximately 77 grams (19 teaspoons) of added sugar daily—more than three times the recommended limit for men (36 grams) and almost five times the recommended limit for women (25 grams).</p>
+                <p class="stat-source">Source: American Heart Association, 2023</p>
+            </div>
+            
+            <h3>Health Consequences of High Sugar Consumption:</h3>
+            <ul>
+                <li><strong>Weight gain and obesity:</strong> Sugar provides calories with no essential nutrients ("empty calories").</li>
+                <li><strong>Type 2 diabetes:</strong> High sugar intake can lead to insulin resistance over time.</li>
+                <li><strong>Heart disease:</strong> High sugar diets are associated with increased risk of heart disease.</li>
+                <li><strong>Non-alcoholic fatty liver disease:</strong> Excess fructose consumption contributes to fat accumulation in the liver.</li>
+                <li><strong>Dental cavities:</strong> Sugar is the primary dietary factor in tooth decay.</li>
+                <li><strong>Cognitive function:</strong> Some research suggests high sugar consumption may impair memory and learning.</li>
+            </ul>
+            
+            <div class="stat-box">
+                <p>People who consume 25% or more of their daily calories from added sugar are more than twice as likely to die from heart disease compared to those who consume less than 10% of calories from added sugar.</p>
+                <p class="stat-source">Source: JAMA Internal Medicine, 2022</p>
+            </div>
+            
+            <h3>Hidden Sources of Added Sugar:</h3>
+            <ul>
+                <li>Breakfast cereals</li>
+                <li>Yogurt with fruit flavoring</li>
+                <li>Pasta sauces</li>
+                <li>Granola and protein bars</li>
+                <li>Sports and energy drinks</li>
+                <li>Salad dressings</li>
+                <li>Bread and baked goods</li>
+            </ul>
+        </section>
+        
+        <section id="solutions">
+            <h2>Practical Solutions for Healthier Eating</h2>
+            
+            <div class="tip-card">
+                <h4>Focus on Whole Foods</h4>
+                <p>Build your diet around minimally processed foods like vegetables, fruits, whole grains, legumes, lean proteins, and healthy fats. These foods provide essential nutrients and fiber while typically containing fewer additives.</p>
+            </div>
+            
+            <div class="tip-card">
+                <h4>Read Food Labels</h4>
+                <p>Learn to interpret nutrition facts panels and ingredient lists. Look for products with shorter ingredient lists featuring recognizable foods rather than chemical additives.</p>
+            </div>
+            
+            <div class="tip-card">
+                <h4>Cook at Home More Often</h4>
+                <p>Home cooking gives you control over ingredients and preparation methods. Research shows people who cook at home more often consume fewer calories, less sugar, and less fat.</p>
+            </div>
+            
+            <div class="tip-card">
+                <h4>Practice Mindful Eating</h4>
+                <p>Pay attention to hunger and fullness cues, eat slowly, and savor your food. This can help prevent overeating and increase satisfaction with smaller portions.</p>
+            </div>
+            
+            <div class="tip-card">
+                <h4>Plan and Prep Meals</h4>
+                <p>Planning meals in advance and preparing healthy components (like chopped vegetables or cooked grains) can make nutritious eating more convenient during busy days.</p>
+            </div>
+            
+            <div class="stat-box">
+                <p>Following a Mediterranean-style diet has been associated with a 25% reduced risk of developing cardiovascular disease over 12 years.</p>
+                <p class="stat-source">Source: New England Journal of Medicine, 2023</p>
+            </div>
+            
+            <div class="conclusion">
+                <h3>Small Changes Add Up</h3>
+                <p>Improving your diet doesn't require perfection or extreme measures. Research shows that even modest improvements in diet quality are associated with significant health benefits. Focus on making sustainable changes that you can maintain over time.</p>
+                
+                <div class="stat-box">
+                    <p>A 2023 study found that replacing just one serving of processed red meat per day with nuts or legumes was associated with a 47% lower risk of heart disease.</p>
+                    <p class="stat-source">Source: JAMA Internal Medicine, 2023</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>This educational resource was created as a CAS (Creativity, Activity, Service) project to promote awareness about healthy eating habits. The information provided is based on current scientific research as of 2024.</p>
+        <p>© 2024 Healthy Eating Awareness Project</p>
+    </footer>
+</body>
+</html>
